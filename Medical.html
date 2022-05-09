@@ -26,23 +26,23 @@
         <ul class="navbar-na">
         
             <li class="nav-item">
-                <a href="#" class="btn-item" role="button" id="btn"><<</a>
+                <a href="#" class="btn-item" role="button" id="btns" style="margin-top: 5px;"><<</a>
             </li>
             
             <li class="nav-item">
-            <a href="#" class="btn-item" role="button" id="btn"><</a>
+            <a href="#" class="btn-item" role="button" id="btns"><</a>
             </li>
             
             <li class="nav-item">
-                <a href="#" class="btn-item" role="button" id="btn">115/155</a>
+                <a href="#" class="btn-item" role="button" id="btns">115/155</a>
             </li>
             
              <li class="nav-item">
-                <a href="#" class="btn-item" role="button" id="btn">></a>
+                <a href="#" class="btn-item" role="button" id="btns">></a>
             </li>
             
              <li class="nav-item">
-                <a href="#" class="btn-item" role="button" id="btn">>></a>
+                <a href="#" class="btn-item" role="button" id="btns">>></a>
             </li>
             
         </ul>
@@ -75,7 +75,7 @@
 </div>  														
 
 <!-- div2 ends -->
-
+<br><br>
 <!-- div3 starts -->
 
 <div id="div3">		
@@ -88,7 +88,7 @@
     </li>
     
     <li class="nav-item2" id="l4">
-     <a href="#" class="btn-cardiac" role="button" id="btn2">cardiac</a>
+     <a href="#" class="btn-cardiac" role="button" id="btn2">Cardiac</a>
     </li>
     
     <li class="nav-item2" id="l5">
@@ -104,7 +104,7 @@
 
 </div>		
  <!-- div3 ends -->
- 
+ <br>
   <!-- Add, Hourly and All begins -->
   
 <div id="div4">																		
@@ -144,9 +144,9 @@
 <div id="div6">		
 																	
 <nav class="navbar-sm4" id="fourthnav">
-<ul class="navbar-nav3">
+<ul class="navbar-navadd1">
 
- <li class="nav-item3">
+ <li class="nav-itemadd1">
       <a href="#" class="btn btn-addbtn" role="button" id="addbtn2" data-bs-toggle="modal" data-bs-target="#myModal2">+</a>
     </li>
     
@@ -176,8 +176,8 @@
 
 <div id="div8">																			
 <nav class="navbar-sm6" id="fourthnav">
-<ul class="navbar-nav3">
- <li class="nav-item3">
+<ul class="navbar-navadd2">
+ <li class="nav-itemadd2">
       <a href="#" class="btn btn-addbtn" role="button" id="addbtn3" data-bs-toggle="modal" data-bs-target="#myModal3">+</a>
     </li>
 </ul>
@@ -199,8 +199,8 @@
 
 <div id="div10">																			
 <nav class="navbar-sm8" id="fourthnav">
-<ul class="navbar-nav3">
- <li class="nav-item3">
+<ul class="navbar-navadd3">
+ <li class="nav-itemadd3">
       <a href="#" class="btn btn-addbtn" role="button" id="addbtn4" data-bs-toggle="modal" data-bs-target="#myModal4">+</a>
     </li>
 </ul>
@@ -539,13 +539,13 @@
   
   
   <div class="modal" id="myModal1" style="width:100%;">
-  <div class="modal-dialog" style="width:100%;">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable" style="width:100%;">
     <div class="modal-content" style="width:100%;">
 
       <!-- Modal Header -->
-      <div class="modal-header" style="border: 1px solid gray; border-radius: 5px; background-color: lightgray;width:100%; height: 30px;">
-        <h6 class="modal-title">General Vital-Bounce,David 81 M</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-header" style="border: 1px solid gray; border-radius: 10px; background-color: lightgray;width:100%; height: 20px;">
+        <h6 class="modal-title" style="font-size: small;">General Vital-Bounce,David 81 M</h6>
+        <button type="button" class="btn" data-bs-dismiss="modal" style="font-size:x-small; font-weight: bold;">&#10006</button>
       </div>
 
       <!-- Modal body -->
@@ -554,77 +554,77 @@
     <div class="col p-3"></div>
     <div class="col p-3" style="width:270px;">
     <form>
-    <table id="t2">
+    <table id="t2" style="margin-left: 50px;">
     <tr>
     <th></th>
     <th>Date</th>
     <th>Time</th>
     </tr>
     <tr>
-    <td><label for="vital" style="color:black;">Vitals</label></td>
-   <td> <input type="text" id="date1" style="width:70px;height:15px;"/></td>
-   <td><input type="text" id="time" style="width:70px;height:15px;"/></td>
+    <td><label for="vital" style="color:black; font-weight: bold;">Vitals</label></td>
+   <td> <input type="text" id="date1" style="width:90px;height:25px;"/></td>
+   <td><input type="text" id="time" style="width:90px;height:25px;"/></td>
     </tr>
     <tr>
-    <td><label for="temp">Temp</label></td>
-   <td> <input type="text" id="temp" style="width:70px;height:15px;"/></td>
+    <td><label for="temp" style="width: 70px;">Temp</label></td>
+   <td> <input type="text" id="temp" style="width:90px;height:25px;"/></td>
    <td>°C</td>
     </tr>
     <tr>
     <td><label for="pulse">Pulse</label></td>
-   <td> <input type="text" id="pulse" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="pulse" style="width:90px;height:25px;"/></td>
    <td>BPM</td>
     </tr>
     <tr>
     <td><label for="bp1">S BP</label></td>
-   <td> <input type="text" id="bp1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp1" style="width:90px;height:25px;"/></td>
    <td>mmHg</td>
     </tr>
      <tr>
     <td><label for="bp2">D BP</label></td>
-   <td> <input type="text" id="bp2" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp2" style="width:90px;height:25px;"/></td>
    <td>mmHg</td>
     </tr>
      <tr>
     <td><label for="rr">RR</label></td>
-   <td> <input type="text" id="rr" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="rr" style="width:90px;height:25px;"/></td>
    <td>BPM</td>
     </tr>
      <tr>
     <td><label for="sat">O<sup>2</sup>Sat</label></td>
-   <td> <input type="text" id="sat" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="sat" style="width:90px;height:25px;""/></td>
    <td>%</td>
     </tr>
     <tr>
     <td><label for="fio">FiO<sup>2</sup></label></td>
-   <td> <input type="text" id="fio" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="fio" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="peep">PEEP</label></td>
-   <td> <input type="text" id="peep" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="peep" style="width:90px;height:25px;"/></td>
    <td>cmH<sub>2</sub>O</td>
     </tr>
     <tr>
     <td><label for="weight">Weight</label></td>
-   <td> <input type="text" id="weight" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="weight" style="width:90px;height:25px;"/></td>
    <td>Kg</td>
     </tr>
     <tr>
     <td><label for="height">Height</label></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
    <td>m</td>
     </tr>
     <tr>
     <td><label for="bmi">BMI</label></td>
-   <td> <input type="text" id="bmi" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bmi" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="avpu">AVPU</label></td>
    <td>
-   <select name="avpu" id="values" style="width:70px;height:15px;">
+   <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -634,7 +634,7 @@
     <tr>
     <td><label for="gcs">GCS</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -653,8 +653,8 @@
 
       <!-- Modal footer -->
       <div class="modal-footer" style="width:100%;">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="margin-right: 300px;">Cancel</button>
-        <button type="button" class="btn btn-success" onclick="form_submit()">Submit</button>
+        <button type="button" class="btn btn-danger4" data-bs-dismiss="modal" style="margin-right: 950px; border: 1px solid black;background-color: lightgrey;">Cancel</button>
+        <button type="button" class="btn btn-success4" onclick="form_submit()" style="border: 1px solid black;background-color: lightgrey;">Submit</button>
       </div>
 
     </div>
@@ -662,13 +662,13 @@
 </div>
 
 <div class="modal" id="myModal2" style="width:100%;">
-  <div class="modal-dialog" style="width:100%;">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable" style="width:100%;">
     <div class="modal-content" style="width:100%;">
 
       <!-- Modal Header -->
-      <div class="modal-header" style="border: 1px solid gray; border-radius: 5px; background-color: lightgray;width:100%;">
-        <h6 class="modal-title">Cardiac Vital-Bounce,John 81 M</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-header" style="border: 1px solid gray; border-radius: 10px; background-color: lightgray;width:100%;height: 20px;">
+        <h6 class="modal-title" style="font-size: small;">Cardiac Vital-Bounce,John 81 M</h6>
+        <button type="button" class="btn" data-bs-dismiss="modal" style="font-size: x-small;">&#10006</button>
       </div>
 
       <!-- Modal body -->
@@ -677,20 +677,20 @@
     <div class="col p-3"></div>
     <div class="col p-3" style="width:270px;">
     <form>
-    <table id="t2">
+    <table id="t2" style="margin-left: 50px;">
     <tr>
     <th></th>
     <th>Date</th>
     <th>Time</th>
     </tr>
     <tr>
-    <td><label for="vital" style="color:black;">Vitals</label></td>
-   <td> <input type="text" id="date1" style="width:70px;height:15px;"/></td>
-   <td><input type="text" id="time" style="width:70px;height:15px;"/></td>
+    <td><label for="vital" style="color:black; font-weight: bold;">Vitals</label></td>
+   <td> <input type="text" id="date2" style="width:90px;height:25px;"/></td>
+   <td><input type="text" id="time1" style="width:90px;height:25px;"/></td>
     </tr>
     <tr>
-    <td><label for="temp">Movement Arms L</label></td>
-   <td> <select name="avpu" id="values" style="width:70px;height:15px;">
+    <td><label for="temp" style="width:140px;">Movement Arms L</label></td>
+   <td> <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -699,12 +699,12 @@
     </tr>
     <tr>
     <td><label for="pulse">Pulse</label></td>
-   <td> <input type="text" id="pulse" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="pulse" style="width:90px;height:25px;"/></td>
    <td>BPM</td>
     </tr>
     <tr>
-    <td><label for="bp1" style="width: 100px;">Movement Arms R</label></td>
-   <td><select name="avpu" id="values" style="width:70px;height:15px;">
+    <td><label for="bp1" style="width: 140px;">Movement Arms R</label></td>
+   <td><select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -713,48 +713,48 @@
     </tr>
      <tr>
     <td><label for="bp2">MAP</label></td>
-   <td> <input type="text" id="bp2" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp2" style="width:90px;height:25px;"/></td>
    <td>mmHg</td>
     </tr>
      <tr>
     <td><label for="rr">ICP</label></td>
-   <td> <input type="text" id="rr" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="rr" style="width:90px;height:25px;"/></td>
    <td>MMHg</td>
     </tr>
      <tr>
     <td><label for="sat">O<sup>2</sup>Sat</label></td>
-   <td> <input type="text" id="sat" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="sat" style="width:90px;height:25px;"/></td>
    <td>%</td>
     </tr>
     <tr>
     <td><label for="fio">FiO<sup>2</sup></label></td>
-   <td> <input type="text" id="fio" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="fio" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="peep">PEEP</label></td>
-   <td> <input type="text" id="peep" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="peep" style="width:90px;height:25px;"/></td>
    <td>cmH<sub>2</sub>O</td>
     </tr>
     <tr>
     <td><label for="weight">Size L</label></td>
-   <td> <input type="text" id="weight" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="weight" style="width:90px;height:25px;"/></td>
    <td>mm</td>
     </tr>
     <tr>
     <td><label for="height">Size R</label></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
    <td>mm</td>
     </tr>
     <tr>
     <td><label for="bmi">BMI</label></td>
-   <td> <input type="text" id="bmi" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bmi" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="avpu">AVPU</label></td>
    <td>
-   <select name="avpu" id="values" style="width:70px;height:15px;">
+   <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -764,7 +764,7 @@
     <tr>
     <td><label for="gcs">GCS</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -783,8 +783,8 @@
 
       <!-- Modal footer -->
       <div class="modal-footer" style="width:100%;">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="margin-right: 300px;">Cancel</button>
-        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+        <button type="button" class="btn btn-danger3" data-bs-dismiss="modal" style="margin-right: 950px; border: 1px solid black;background-color: lightgrey;">Cancel</button>
+        <button type="button" class="btn btn-success3" onclick="form_submit()" style="border: 1px solid black;background-color: lightgrey;">Submit</button>
       </div>
 
     </div>
@@ -793,13 +793,13 @@
   
   
   <div class="modal" id="myModal3" style="width:100%;">
-  <div class="modal-dialog" style="width:100%;">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable" style="width:100%;">
     <div class="modal-content" style="width:100%;">
 
       <!-- Modal Header -->
-      <div class="modal-header" style="border: 1px solid gray; border-radius: 5px; background-color: lightgray;width:100%;">
-        <h6 class="modal-title">Respiratory Vital-Bounce,Amal 31 M</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-header" style="border: 1px solid gray; border-radius: 10px; background-color: lightgray;width:100%;height: 20px;">
+        <h6 class="modal-title" style="font-size: small;">Respiratory Vital-Bounce,Amal 31 M</h6>
+        <button type="button" class="btn" data-bs-dismiss="modal" style="font-size: x-small;">&#10006</button>
       </div>
 
       <!-- Modal body -->
@@ -808,20 +808,20 @@
     <div class="col p-3"></div>
     <div class="col p-3" style="width:270px;">
     <form>
-    <table id="t2">
+    <table id="t2" style="margin-left: 50px;">
     <tr>
     <th></th>
     <th>Date</th>
     <th>Time</th>
     </tr>
     <tr>
-    <td><label for="vital" style="color:black;">Vitals</label></td>
-   <td> <input type="text" id="date1" style="width:70px;height:15px;"/></td>
-   <td><input type="text" id="time" style="width:70px;height:15px;"/></td>
+    <td><label for="vital" style="color:black; font-weight: bold;">Vitals</label></td>
+   <td> <input type="text" id="date3" style="width:90px;height:25px;"/></td>
+   <td><input type="text" id="time2" style="width:90px;height:25px;"/></td>
     </tr>
     <tr>
-    <td><label for="temp">Movement Legs L</label></td>
-   <td> <select name="avpu" id="values" style="width:70px;height:15px;">
+    <td><label for="temp" style="width:140px;">Movement Legs L</label></td>
+   <td> <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -830,8 +830,8 @@
    <td></td>
     </tr>
     <tr>
-    <td><label for="pulse" style="width: 100px;">Movement Legs R</label></td>
-   <td> <select name="avpu" id="values" style="width:70px;height:15px;">
+    <td><label for="pulse" style="width: 140px;">Movement Legs R</label></td>
+   <td> <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -840,54 +840,54 @@
     </tr>
     <tr>
     <td><label for="bp1">Duration</label></td>
-   <td> <input type="text" id="bp1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp1" style="width:90px;height:25px;"/></td>
    <td>min</td>
     </tr>
      <tr>
     <td><label for="bp2">D BP</label></td>
-   <td> <input type="text" id="bp2" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp2" style="width:90px;height:25px;"/></td>
    <td>mmHg</td>
     </tr>
      <tr>
     <td><label for="rr">RR</label></td>
-   <td> <input type="text" id="rr" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="rr" style="width:90px;height:25px;"/></td>
    <td>BPM</td>
     </tr>
      <tr>
     <td><label for="sat">O<sup>2</sup>Sat</label></td>
-   <td> <input type="text" id="sat" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="sat" style="width:90px;height:25px;"/></td>
    <td>%</td>
     </tr>
     <tr>
     <td><label for="fio" style="width: 100px;">Lungs Pulse</label></td>
-   <td> <input type="text" id="fio" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="fio" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="peep">PEEP</label></td>
-   <td> <input type="text" id="peep" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="peep" style="width:90px;height:25px;"/></td>
    <td>cmH<sub>2</sub>O</td>
     </tr>
     <tr>
     <td><label for="weight">Weight</label></td>
-   <td> <input type="text" id="weight" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="weight" style="width:90px;height:25px;"/></td>
    <td>Kg</td>
     </tr>
     <tr>
     <td><label for="height">Height</label></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
    <td>m</td>
     </tr>
     <tr>
     <td><label for="bmi">Motor</label></td>
-   <td> <input type="text" id="bmi" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bmi" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="avpu">Verbal</label></td>
    <td>
-   <select name="avpu" id="values" style="width:70px;height:15px;">
+   <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -897,7 +897,7 @@
     <tr>
     <td><label for="gcs">GCS</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -916,8 +916,8 @@
 
       <!-- Modal footer -->
       <div class="modal-footer" style="width:100%;">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="margin-right: 300px;">Cancel</button>
-        <button type="button" class="btn btn-success" onclick="form_submit()">Submit</button>
+        <button type="button" class="btn btn-danger2" data-bs-dismiss="modal" style="margin-right: 950px; border: 1px solid black;background-color:lightgrey;">Cancel</button>
+        <button type="button" class="btn btn-success2" onclick="form_submit()" style="border: 1px solid black;background-color: lightgrey;">Submit</button>
       </div>
 
     </div>
@@ -925,13 +925,13 @@
 </div>
 
 <div class="modal" id="myModal4" style="width:100%;">
-  <div class="modal-dialog" style="width:100%;">
+  <div class="modal-dialog modal-xl modal-dialog-scrollable">
     <div class="modal-content" style="width:100%;">
 
       <!-- Modal Header -->
-      <div class="modal-header" style="border: 1px solid gray; border-radius: 5px; background-color: lightgray;width:100%;">
-        <h6 class="modal-title">Neuro Vital-Bounce,Deepan 71 M</h6>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-header" style="border: 1px solid gray; border-radius: 10px; background-color: lightgray;width:100%;height: 20px;">
+        <h6 class="modal-title" style="font-size: small;">Neuro Vital-Bounce,Deepan 71 M</h6>
+        <button type="button" class="btn" data-bs-dismiss="modal" style="font-size: x-small;">&#10006</button>
       </div>
 
       <!-- Modal body -->
@@ -940,26 +940,26 @@
     <div class="col p-3"></div>
     <div class="col p-3" style="width:270px;">
     <form>
-    <table id="t2">
+    <table id="t2" style="margin-left: 50px;">
     <tr>
     <th></th>
     <th>Date</th>
     <th>Time</th>
     </tr>
     <tr>
-    <td><label for="vital" style="color:black;">Vitals</label></td>
-   <td> <input type="text" id="date1" style="width:70px;height:15px;"/></td>
-   <td><input type="text" id="time" style="width:70px;height:15px;"/></td>
+    <td><label for="vital" style="color:black; font-weight: bold;">Vitals</label></td>
+   <td> <input type="text" id="date4" style="width:90px;height:25px;"/></td>
+   <td><input type="text" id="time3" style="width:90px;height:25px;"/></td>
     </tr>
     <tr>
     <td><label for="temp">Equality</label></td>
-   <td> <input type="text" id="temp" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="temp" style="width:90px;height:25px;"/></td>
    <td></td>
     </tr>
     <tr>
     <td><label for="pulse">Eyes</label></td>
    <td>
-    <select name="gcs" id="values" style="width:70px;height:15px;">
+    <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -970,7 +970,7 @@
     <tr>
     <td><label for="bp1">Siezure</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -980,44 +980,44 @@
     </tr>
      <tr>
     <td><label for="bp2">CSF</label></td>
-   <td> <input type="text" id="bp2" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="bp2" style="width:90px;height:25px;"/></td>
    <td>ml</td>
     </tr>
      <tr>
     <td><label for="rr">CCP</label></td>
-   <td> <input type="text" id="rr" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="rr" style="width:90px;height:25px;"/></td>
    <td>mmHg</td>
     </tr>
      <tr>
     <td><label for="sat">O<sup>2</sup>Sat</label></td>
-   <td> <input type="text" id="sat" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="sat" style="width:90px;height:25px;"/></td>
    <td>%</td>
     </tr>
     <tr>
     <td><label for="fio">C-O<sup>2</sup></label></td>
-   <td> <input type="text" id="fio" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="fio" style="width:90px;height:25px;"/></td>
    <td>%</td>
     </tr>
     <tr>
     <td><label for="temp">C-Temp</label></td>
-   <td> <input type="text" id="peep" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="peep" style="width:90px;height:25px;"/></td>
    <td>°C</td>
     </tr>
     <tr>
     <td><label for="weight">Weight</label></td>
-   <td> <input type="text" id="weight" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="weight" style="width:90px;height:25px;"/></td>
    <td>Kg</td>
     </tr>
     <tr>
     <td><label for="height">Height</label></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
-   <td> <input type="text" id="height1" style="width:70px;height:15px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
+   <td> <input type="text" id="height1" style="width:90px;height:25px;"/></td>
    <td>m</td>
     </tr>
     <tr>
     <td><label for="stg">Strength A-L</label></td>
    <td> 
-   <select name="avpu" id="values" style="width:70px;height:15px;">
+   <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -1027,7 +1027,7 @@
     <tr>
     <td><label for="avpu">Strength A-R</label></td>
    <td>
-   <select name="avpu" id="values" style="width:70px;height:15px;">
+   <select name="avpu" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -1037,7 +1037,7 @@
     <tr>
     <td><label for="gcs">Strength L-L</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -1048,7 +1048,7 @@
     <tr>
     <td><label for="gcs" style="width: 100px;">Strength L-R</label></td>
    <td>
-   <select name="gcs" id="values" style="width:70px;height:15px;">
+   <select name="gcs" id="values" style="width:90px;height:25px;">
     <option value="v1"></option>
     <option value="v2"></option>
     <option value="v3"></option>
@@ -1067,21 +1067,33 @@
 
       <!-- Modal footer -->
       <div class="modal-footer" style="width:100%;">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" style="margin-right: 300px;">Cancel</button>
-        <button type="button" class="btn btn-success" onclick="form_submit()">Submit</button>
+        <button type="button" class="btn btn-danger1" data-bs-dismiss="modal" style="margin-right: 950px;border: 1px solid black;background-color: lightgray;">Cancel</button>
+        <button type="button" class="btn btn-success1" onclick="form_submit()" style="border: 1px solid black; background-color: lightgray;">Submit</button>
       </div>
 
     </div>
   </div>
 </div>
  <script>
- var d = new Date();
- var strDate = d.getDate() + "-" + (d.getMonth()+1) + "-" + d.getFullYear();
- document.getElementById("date").innerHTML=strDate;
- document.getElementById("date1").value=strDate;
+
+ const date = new Date();
+ const result = date.toLocaleDateString("en-GB", {
+   year: "numeric",
+   month: "2-digit",
+   day: "2-digit",
+ })
+ document.getElementById("date").innerHTML=result;
+ document.getElementById("date1").value=result;
+ document.getElementById("date2").value=result;
+ document.getElementById("date3").value=result;
+ document.getElementById("date4").value=result;
+ 
  var dt = new Date();
  var time = dt.getHours() + ":" + dt.getMinutes();
  document.getElementById("time").value=time;
+ document.getElementById("time1").value=time;
+ document.getElementById("time2").value=time;
+ document.getElementById("time3").value=time;
  
  function form_submit()
  {

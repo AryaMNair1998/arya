@@ -11,15 +11,17 @@ li
 	
 	border:1px solid lightgray;
 	border-radius:5px;
-	width:100px;
+	width:60px;
     overflow:hidden;
 	color: black;
 	text-decoration: none;
 	text-align: center;
-	background-color: lightblue;
+	background-color: lightgray;
  float:right;
  height:30px;
  margin-right: 5px;
+ font-size: small;
+ 
 
 	
 }
@@ -28,9 +30,19 @@ li
 	color:black;
 	text-decoration: none;
 	
-
 }
 
+.btn-item
+{
+
+	color:black;
+	text-decoration: none;
+}
+#btns
+{
+	color:black;
+	text-decoration: none;
+}
 
 #div1
 {
@@ -41,7 +53,7 @@ li
 .navbar-na
 {
 	float: right;
-	margin-left: 650px;
+	margin-left: 830px;
 }
 #date
 {
@@ -51,10 +63,10 @@ li
 .nav-item1
 {
    display:inline-flex;
-	width:110px;
-	border:1px solid lightgrey;
-	height: 50px;
-	margin-right: 10px;
+	width:170px;
+	border:1px solid grey;
+	height: 70px;
+	margin-right: 5px;
 	text-align: center;
 	background-color: white;
 	border-radius: 10px;
@@ -78,16 +90,17 @@ li
 {
 	width:210px;
 	text-decoration: none;
+
 	color: black;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .nav-item2
 {
    display:inline-flex;
-	width:110px;
+	width:170px;
 	border:1px solid grey;
-	height: 50px;
-	margin-right: 10px;
+	height: 60px;
+	margin-right: 5px;
 	text-align: center;
 	background-color: white;
 	border-radius: 10px;
@@ -96,7 +109,7 @@ li
 {
 	 display:inline-flex;
 	width:210px;
-	height: 50px;
+	height: 60px;
 	margin-right: 10px;
 	text-align: center;
 	
@@ -106,12 +119,12 @@ li
 	width:210px;
 	text-decoration: none;
 	color: black;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 .nav-item4
 {
    display:inline-flex;
-	width:110px;
+	width:130px;
 	border:1px solid grey;
 	height: 50px;
 	margin-right: 10px;
@@ -144,19 +157,56 @@ li
 }
 #t2,th,td
 {
-	font-size: x-small;
+	font-size: medium;
 	color: gray;
 }
 #addbtn1:hover,#addbtn2:hover,#addbtn3:hover,#addbtn4:hover
 {
-	border-color: fuchsia;
+	opacity:0.4;
 }
 .nav-item4
 {
-	background-color: lightyellow;
+	background-color: white;
 	border-radius: 10px;
 	
 }
+#addbtn1,#addbtn2,#addbtn3,#addbtn4
+{
+	width:50px;
+	font-size: large;
+	font-weight: bold;
+	border:1px solid gray;
+}
+.nav-item3
+{
+	margin-left: 50px;
+}
+.nav-itemadd1
+{
+	margin-left: 236px;
+}
+.nav-itemadd2
+{
+	margin-left: 415px;
+}
+.nav-itemadd3
+{
+	margin-left: 590px;
+}
+.modal-dialog
+{
+	width:2020px;
+}
+.btn-danger4:hover,.btn-success4:hover,.btn-danger3:hover,.btn-success3:hover,.btn-danger2:hover,.btn-success2:hover,.btn-danger1:hover,.btn-success1:hover
+{
+	opacity: 0.5;
+}
 
+.btn-danger4,.btn-success4,.btn-danger3,.btn-success3,.btn-danger2,.btn-success2,.btn-danger1,.btn-success1
+{
+	width:70px;
+	height:35px;
+	
+}
 
 
